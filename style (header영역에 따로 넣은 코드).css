@@ -1,0 +1,280 @@
+@font-face {
+  font-family: 'Yuni_ddingddang';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_11@1.0/Yuni_ddingddang.woff') format('woff');
+	font-weight: normal;
+  font-style: normal;
+}
+  
+@font-face {
+  font-family: 'Bareun_hipi';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_01@1.0/Bareun_hipi.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mingyung';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_08@1.0/Mingyung.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SlowSlow';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_10@1.0/SlowSlow.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Amsterdam';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_01@1.0/Amsterdam.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'White_angel';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_11@1.0/White_angel.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+
+/* 로고 */
+
+.doz_sys #logo_w20210914f4117f905bcd5.logo .logo_title a {
+  font-family: 나눔 손글씨 백의의 천사, White_angel;
+  font-size: 77px;
+}
+
+.inline-col-group {
+  overflow: visible;
+  text-overflow: unset;
+  white-space: nowrap;
+}
+
+
+
+
+/*모바일 로고*/
+
+.doz_sys #logo_w202109143cf3f9f8faa58.logo .logo_title a {
+  font-family: 나눔 손글씨 백의의 천사, White_angel;
+  font-size: 37px;
+  
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+
+
+
+
+/* 상단메뉴 및 서브메뉴*/
+
+#w20210914f39aca5df7dc5 .viewport-nav {
+font-family: 나눔 손글씨 백의의 천사, White_angel;
+}
+
+
+
+#w20210914f39aca5df7dc5 .viewport-nav > li.dropdown > .notranslate a, #w20210914f39aca5df7dc5 .viewport-nav > li.dropdown > a {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+
+#w20210914f39aca5df7dc5 .dropdown-menu {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+
+
+
+/* 모바일 상단 메뉴 및 서브메뉴 */
+ 
+.mobile_carousel_nav .nav-item > a {
+  font-size: 22px;
+  font-family: 나눔 손글씨 백의의 천사, White_angel;
+  font-weight : bold;
+}
+
+ 
+.mobile_carousel_nav .mobile_nav_depth {
+  text-align : center;
+}
+
+
+
+
+
+/* 킨더소개 왼쪽 메뉴바 */
+
+#w20210914f55ab45c8a159 .nav li a {
+  font-family : 나눔 손글씨 암스테르담, Amsterdam;
+  font-weight : bold;
+  font-size : 29px;
+}
+
+
+#w20210914a8dedae817be5 .nav li a {
+  font-family : 나눔 손글씨 암스테르담, Amsterdam;
+  font-weight : bold;
+  font-size : 29px;
+}
+
+
+#w20210914bcd79fe66f9c9 .nav li a {
+  font-family : 나눔 손글씨 암스테르담, Amsterdam;
+  font-weight : bold;
+  font-size : 29px;
+}
+
+
+#w20210914aa5cfd410d744 .nav li a {
+  font-family : 나눔 손글씨 암스테르담, Amsterdam;
+  font-weight : bold;
+  font-size : 29px;
+}
+
+
+#w2021091493fe48dd07f7a .nav li a {
+  font-family : 나눔 손글씨 암스테르담, Amsterdam;
+  font-weight : bold;
+  font-size : 29px;
+}
+
+
+
+
+
+/* 교육과정 왼쪽 메뉴바 */
+
+#w20210924c835367293320 .nav li a {
+  font-family : 나눔 손글씨 암스테르담, Amsterdam;
+  font-weight : bold;
+  font-size : 29px;
+}
+
+#w20210915521aedf839750 .nav li a {
+  font-family : 나눔 손글씨 암스테르담, Amsterdam;
+  font-weight : bold;
+  font-size : 29px;
+}
+
+#w20210915e63148a6ee74c .nav li a {
+  font-family : 나눔 손글씨 암스테르담, Amsterdam;
+  font-weight : bold;
+  font-size : 29px;
+}
+
+#w202109150d6fca91b5328 .nav li a {
+  font-family : 나눔 손글씨 암스테르담, Amsterdam;
+  font-weight : bold;
+  font-size : 29px;
+}
+
+
+
+
+/* 킨더소식 왼쪽 메뉴바 */
+
+#w2021091583a5354cb1e97 .nav li a {
+  font-family : 나눔 손글씨 암스테르담, Amsterdam;
+  font-weight : bold;
+  font-size : 29px;
+}
+
+
+#w2021091535095b3c9f776 .nav li a {
+  font-family : 나눔 손글씨 암스테르담, Amsterdam;
+  font-weight : bold;
+  font-size : 29px;
+}
+
+
+#w2021091566d274b94d5a7 .nav li a {
+  font-family : 나눔 손글씨 암스테르담, Amsterdam;
+  font-weight : bold;
+  font-size : 29px;
+}
+
+
+
+
+/* 입학 왼쪽 메뉴바 */
+
+#w2021091672d937a4958b8 .nav li a {
+  font-family : 나눔 손글씨 암스테르담, Amsterdam;
+  font-weight : bold;
+  font-size : 29px;
+}
+
+
+#w2021091618c3f69fd7055 .nav li a {
+  font-family : 나눔 손글씨 암스테르담, Amsterdam;
+  font-weight : bold;
+  font-size : 29px;
+}
+
+
+
+
+
+/* 회원가입 확인 버튼 */
+
+.doz_sys #s20210914721efcc25dbe5 .bg-brand, .doz_sys #s20210914721efcc25dbe5 .btn-brand {
+  font-size: 16px;
+}
+
+
+.doz_sys #s20210914721efcc25dbe5 .bg-brand, .doz_sys #s20210914721efcc25dbe5 .btn-brand:hover {
+  background-color: #797979;
+  border: #797979;
+}
+
+
+
+
+
+/* 배너 폰트 */
+
+h4.banner {
+  font-family: Bareun_hipi !important;
+  font-size: 50px;
+  line-height: 1.2;
+}
+
+
+p.banner-txt {
+  font-family: Bareun_hipi !important;
+  font-size: 37px;
+}
+
+span.author {
+  font-size: 29px
+}
+
+
+
+
+
+/* 교육활동 hover 이미지 설정 */
+
+.hover_img{
+  position: relative;
+  margin: -270px auto auto; 
+  width: 270px; 
+  height: 270px; 
+  background-image: url(&quot;https://cdn.imweb.me/thumbnail/20210927/e55db235cbfac.png&quot;);   
+  background-size: 100px !important; 
+  background-repeat: no-repeat;
+  background-position: 50% 50%; 
+  top: 0px;   
+  left: 0px;
+}
