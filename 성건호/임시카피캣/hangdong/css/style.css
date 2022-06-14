@@ -1,0 +1,711 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+ul, li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+	
+}
+
+img {
+	vertical-align: middle;
+}
+
+/* 폰트 추가 */
+@font-face {
+	font-family: 'Yuni_ddingddang';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_11@1.0/Yuni_ddingddang.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+  }
+  
+  @font-face {
+	font-family: 'Bareun_hipi';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_01@1.0/Bareun_hipi.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+  }
+  
+  @font-face {
+	font-family: 'Mingyung';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_08@1.0/Mingyung.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+  }
+  
+  @font-face {
+	font-family: 'SlowSlow';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_10@1.0/SlowSlow.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+  }
+  
+  @font-face {
+	font-family: 'Amsterdam';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_01@1.0/Amsterdam.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+  }
+  
+  @font-face {
+	font-family: 'White_angel';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_11@1.0/White_angel.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+  }
+
+ /*왼쪽 메뉴바 폰트  */
+.left-menu-font-style {
+	font-family : 나눔 손글씨 암스테르담, Amsterdam;
+	font-weight : bold;
+	font-size : 29px;
+}
+
+/* 주요 메뉴 배너 안 폰트 스타일 */
+.banner-font-style h4 {
+	font-family: Bareun_hipi !important;
+	font-size: 50px;
+	line-height: 1.2;
+}
+
+.banner-font-style p {
+	font-family: Bareun_hipi !important;
+	font-size: 37px;
+}
+
+.banner-font-style span {
+	font-size: 29px
+}
+
+
+/*하단 메뉴 호버 리스트*/
+.menu-wrap {
+	position: relative;
+	width: 1903px;
+	height: 50px;
+	
+	/* background: orange; */
+	
+}
+
+.menu-wrap img {
+	position: absolute;
+	width: 1903px;
+	height: 50px;
+	z-index: 10;
+	
+}
+
+.menu-wrap .dep1 {
+	/* font-size: 0; */
+	position: absolute;
+	font-family: 나눔 손글씨 백의의 천사, White_angel;
+	color: rgba(255, 255, 255, 0.7);
+	font-size: 26px;
+    font-weight: bold;
+	z-index: 20;
+	
+}
+
+.menu-wrap .dep1 li {
+	display: inline-block;
+	width: 180px;
+	/*background: #ddd;*/
+	vertical-align: top;
+	text-align: center;
+	font-size: 20px;
+}
+
+/*.menu-wrap .dep1 > li > a {
+	background: purple;
+	color: #fff;
+}*/
+
+.menu-wrap .dep1 > li > a {
+	display: block;
+	padding: 10px 0;
+
+}
+
+.menu-wrap .dep2 {
+	display: none;
+	background: #fff;
+	color: gray;
+	font-size: 22px;
+	/*border: solid 1px #000;*/
+}
+
+.menu-wrap .dep2 a {
+	padding: 10px 0;
+	display: block;
+}
+
+.menu-wrap .dep1 > li:hover > .dep2 {
+	display: block;
+}
+
+.menu-wrap .dep2 a:hover {
+	text-decoration: underline;
+}
+
+/*하단 메뉴 호버 리스트 끝*/
+
+#hangdong-header .hangdong-header-wrap {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: stretch;
+
+	width: 1250px;
+	height: 226px;
+
+	margin-left: 311.5px;
+	margin-right: 311.5px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+
+#hangdong-header .img-banner img {
+	width: 244px;
+	height: 73px;
+}
+
+
+
+#hangdong-header .logo-wrap a h1 {
+	font-family: 나눔 손글씨 백의의 천사, White_angel;
+	font-size: 77px;
+	color: #ff5676;
+  
+}
+
+#hangdong-header .hangdong-login {
+
+}
+
+#hangdong-header .hangdong-login span {
+	display: inline-block;
+	padding: 3px 3px;
+}
+
+#hangdong-header .logo-wrap{
+	/*display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: stretch;*/
+}
+
+.menu-wrap {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: stretch;
+
+	position: relative;
+	width: 100%;
+	border-bottom: 1px solid #bfc0c0;
+	height: 50px;
+}
+
+.main-banner {
+	display: block;
+	text-align: center;
+    width: 100%;
+    height: 300px;
+}
+
+
+
+
+
+
+
+
+
+/*자동 슬라이더 시작*/
+
+.slide{
+	height:700px;
+	overflow:hidden;
+}
+.slide ul{
+	width:calc(100% * 4);
+	display:flex;
+	animation:slide 8s infinite;
+} /* slide를 8초동안 진행하며 무한반복 함 */
+
+.slide li{
+	width:calc(100% / 4);
+	height:500px;
+}
+
+/*.slide li:nth-child(1){
+	background:#feaa;
+}
+
+.slide li:nth-child(2){
+	background:#faa;
+}
+
+.slide li:nth-child(3){
+	background:#afa;
+}
+
+.slide li:nth-child(4){
+	background:#aaf;
+}*/
+
+
+@keyframes slide {
+	0% {margin-left:0;} /* 0 ~ 10  : 정지 */
+	10% {margin-left:0;} /* 10 ~ 25 : 변이 */
+    25% {margin-left:-100%;} /* 25 ~ 35 : 정지 */
+    35% {margin-left:-100%;} /* 35 ~ 50 : 변이 */
+    50% {margin-left:-200%;}
+    60% {margin-left:-200%;}
+    75% {margin-left:-300%;}
+    85% {margin-left:-300%;}
+    100% {margin-left:0;}
+}
+
+
+
+.slide {
+
+}
+
+.slide .list-wrap {
+	text-align: center;
+}
+
+.slide .list-wrap img {
+	width: 1903px;
+	height: 694px;
+}
+
+.slide .list-wrap li .img-wrap {
+	display: flex;
+}
+
+
+.slide .list-wrap li .txt-wrap  {
+	display: flex;
+	flex-direction: column;
+	
+}
+
+/*자동 슬라이더 끝*/
+
+
+
+
+
+
+/*이미지 위 텍스트*/
+/*.jb-wrap {
+	width: 100%;
+	margin: 10px auto;
+	border: 1px solid #000000;
+	position: relative;
+}
+
+.jb-wrap img {
+	width: 100%;
+	vertical-align: middle;
+}
+*/
+.banner-text {
+	width: 650px;
+	padding: 5px 10px;
+	
+	text-align: right;
+	position: absolute;
+	top: 85%;
+	left: 70%;
+	transform: translate(-50%, -50%);
+
+	font-size: 26px;
+	color: #fff;
+	
+}
+
+
+
+/*메인 공지 시작*/
+
+
+#hangdong-main {
+ 
+}
+
+#hangdong-main .hd-main {
+ 	
+}
+
+#hangdong-main .hd-main .hd-notice {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+
+#hangdong-main .hd-main .hd-notice .hd-notice-name p {
+	font-size: 24px;
+	padding-top: 31px;
+}
+
+
+#hangdong-main .hd-main .hd-notice .hd-notice-lists {
+	
+}
+
+#hangdong-main .hd-main .hd-notice .hd-notice-lists li {
+	border-bottom: solid 1px rgba(25,25,25,0.1);
+}
+
+
+#hangdong-main .hd-main .hd-notice .hd-notice-lists li a {
+	display: flex;
+
+}
+
+#hangdong-main .hd-main .hd-notice .hd-notice-lists li a img {
+	width: 107px;
+	height: 107px;
+	margin-top: 50px;
+	margin-right: 20px;
+	border-radius: 50%;
+}
+
+
+#hangdong-main .hd-main .hd-notice .hd-notice-lists li a .hd-notice-info {
+	width: 100%;
+	height: 200px;
+	display: flex;
+	display: block;
+	padding-top: 30px;
+}
+
+#hangdong-main .hd-main .hd-notice .hd-notice-lists li a .hd-notice-info .hd-notice-date {
+	font-size: 13px;
+    color: #1919198c;
+    margin-bottom: 13px;
+}
+
+#hangdong-main .hd-main .hd-notice .hd-notice-lists li a .hd-notice-info .hd-notice-date span{
+	
+}
+
+#hangdong-main .hd-main .hd-notice .hd-notice-lists li a .hd-notice-info h2 {
+	font-size: 15px;
+	color: #191919bf;
+
+	margin-bottom: 13px;
+}
+
+#hangdong-main .hd-main .hd-notice .hd-notice-lists li a .hd-notice-info .paragraph {
+	width: 1200px;
+	/*height: 28px;*/
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical; 
+
+    font-size: 13px;
+    color: #1919198c;
+}
+
+#hangdong-main .hd-main .hd-notice .hd-notice-lists a img {
+
+}
+
+/*게시판 아래 1, 2, 3 */
+
+#hangdong-main .hd-main .hd-notice .hd-notice-count {
+	padding: 20px 40px;
+}
+
+#hangdong-main .hd-main .hd-notice .hd-notice-count a {
+	
+}
+
+#hangdong-main .hd-main .hd-notice .hd-notice-count a.active {
+	font-weight: bold;
+	color: red;
+}
+
+/* 문제 : 왜 액티브가 씹힐까? */
+#hangdong-main .hd-main .hd-notice .hd-notice-count a span {
+	/*color: gray;*/
+}
+
+
+#hangdong-main .hd-main .hd-notice .hd-notice-count a .arrow {
+
+
+}
+
+
+/*.bottom-banner .slide{
+	height:268px;
+	overflow:hidden;
+}
+.bottom-banner .slide ul{
+	width:calc(100% * 4);
+	display:flex;
+	animation:slide 8s infinite;
+}
+
+.bottom-banner .slide li{
+	width:calc(100% / 4);
+	height:500px;
+}
+
+
+@keyframes bottom-banner slide {
+	0% {margin-left:0;} 
+	10% {margin-left:0;}
+    25% {margin-left:-100%;} 
+    35% {margin-left:-100%;} 
+    50% {margin-left:-200%;}
+    60% {margin-left:-200%;}
+    75% {margin-left:-300%;}
+    85% {margin-left:-300%;}
+    100% {margin-left:0;}
+}
+
+
+
+.bottom-banner .slide {
+
+}
+
+.bottom-banner .slide .list-wrap {
+	text-align: center;
+}
+
+.bottom-banner .slide .list-wrap img {
+	width: 273px;
+	height: 206px;
+}
+
+.bottom-banner .slide .list-wrap li .img-wrap {
+	display: flex;
+	
+}
+
+
+.bottom-banner .slide .list-wrap li .txt-wrap  {
+	display: flex;
+	flex-direction: column;
+	
+}
+*/
+
+.bottom-banner {
+
+}
+
+.bottom-banner .image-wrap {
+	
+}
+
+.bottom-banner .image-wrap {
+	
+}
+
+.bottom-banner .image-wrap ul {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+
+	padding-top: 80px;
+	padding-bottom: 150px;
+}
+
+.bottom-banner .image-wrap ul li {
+	padding: 5px 5px;
+	
+}
+
+
+
+.bottom-banner .image-wrap ul li img {
+	width: 273px;
+	height: 206px;
+}
+
+
+
+/* 킨더 소개 페이지 */
+
+.sub-main-banner {
+	
+}
+
+.sub-main-banner img {
+	width: 1903px;
+	height: 381px;
+}
+
+
+.sub-banner-txt {
+	width: 650px;
+	padding: 5px 10px;
+	
+	text-align: center;
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	font-size: 45px;
+	color: #fff;
+}
+
+.main-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: stretch;
+	
+	width: 100%;
+	/*height: 720px;*/
+}
+
+.main-container .main-left {
+	width: 213.33px;
+	padding-top: 50px;
+}
+
+.main-container .main-left h2 {
+	display: block;
+	font-size: 36px;
+	color: red;
+	padding-bottom: 40px;
+}
+
+.main-container .main-left a {
+	display: block;
+	padding-bottom: 15px;
+}
+
+.main-container .main-left a p {
+	font-size: 29px;
+}
+
+.main-container .main-left a p.active {
+	color: red;
+}
+
+.main-container .main-right {
+	width: 1036px;
+}
+
+.main-container .main-right .summary {
+	text-align: right;
+	padding-top: 10px;
+}
+
+.main-container .main-right .summary span {
+	color: grey;
+}
+
+.main-container .main-right .summary span.active {
+	color: red;
+}
+
+.main-container .main-right .main-right-container {
+
+}
+
+.main-container .main-right .main-right-container h2 {
+	text-align: center;
+	font-size: 80px;
+	padding-top: 124px;
+}
+
+
+/* 질문 왜 span 태그는 택스트 정렬이 그냥 안먹힐까? */
+.main-container .main-right .main-right-container span {
+	display: block;
+	font-size: 36px;
+	text-align: center;
+}
+
+.main-container .main-right .main-right-container span.active {
+	color: red;
+
+}
+
+
+.main-container .main-right .main-right-container p {
+	font-size: 18px;
+	padding-top: 20px;
+}
+
+.main-container .main-right .main-right-container .image-wrap img {
+	width: 584px;
+	height: 100px;
+	padding-top: 92px;
+	padding-left: 20%;
+	padding-bottom: 92px;
+}
+
+
+
+
+/*footer*/
+
+#hd-footer {
+	min-width: 970px;
+    border-top: 1px solid #dde4e9;
+    background: #2d2d2d;
+    padding-bottom: 20px;
+	
+	
+}
+
+#hd-footer .hd-footer-wrap {
+	text-align: center;
+}
+
+
+#hd-footer .hd-footer-wrap .copy {
+	margin-top: 20px;
+}
+
+#hd-footer .hd-footer-wrap p {
+	/*position: relative;*/
+	/*margin: 0;
+	padding: 0;*/
+	/*line-height: 1.8em;*/
+	text-align: center;
+	font-size: 15px;
+	color: #fff;
+}
